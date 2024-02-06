@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUSAI YOUSEF HOME</title>
+    <style>
+        *{box-shadow: 0;}
+        #QU1 {padding: 50px 0;border: 3px solid yellow;
+            font-size: 13px;background: red;
+            width: 250px;text-align: center; box-sizing: border-box}
+    </style>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#QU").click(function () {
+                $("#QU1").animate({ width: "100%" })
+                    .animate({ fontSize: "40px" }).animate({ borderWidth: "30px" })
+            })
+        });
+    </script>
+
+</head>
+
+<body>
+    <p id="QU1">WELCOME TO QUSAI YOUSEF</p>
+    <button id="QU">BIG TO FONT</button>
+
+</body>
+
+</html>
